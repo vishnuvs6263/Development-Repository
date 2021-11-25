@@ -46,6 +46,7 @@ public class ChangeDate_PostMethodMissed {
 		
 		String jsonString = responsefromLogin.getBody().asString();
 	    token = JsonPath.read(jsonString, "token");
+	    System.out.println(token);
 		
 	}
 	
