@@ -29,6 +29,7 @@ public class BaseClass {
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(ProjectPath + "/configuration/confiq.properties");
 		prop.load(fis);
+		System.out.println("new");
 
 		// Manage windows property
  
